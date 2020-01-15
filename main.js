@@ -225,6 +225,17 @@ for (i = 0; ; i++) {
             operationSubtraction = x - y;
             console.log(operationSubtraction);
             break;
+            case "*":
+            operationMultiplication = x * y;
+            console.log(operationMultiplication);
+            break;
+            case "/":
+            operationDivision = x / y;
+            console.log(operationDivision);
+            break;
+            default:
+            console.log("Нет такой операции.");
+            break;
     }
     break;
     let repeatOperation = prompt("Хотите продолжить операцию?");
